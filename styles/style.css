@@ -131,6 +131,7 @@ h1 span {
 }
 
 .content__video-card-title {
+  max-width: 196.45px;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
@@ -149,7 +150,7 @@ h1 span {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   line-clamp: 3;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .result__video-container {
@@ -183,9 +184,6 @@ video {
   flex-direction: column;
   gap: 6px;
   width: 200px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .content__video-card-description-container:hover {
@@ -231,6 +229,7 @@ input::placeholder {
   appearance: none;
   width: 225px;
   height: 27px;
+  font-size: inherit;
   font-family: inherit;
   color: rgba(255, 255, 255);
   border-top: 1px solid #fff;
